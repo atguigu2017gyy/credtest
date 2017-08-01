@@ -30,4 +30,10 @@ public class TableEmployee {
     public void setSalary(Long salary) {
         this.salary = salary;
     }
+
+    @Override
+    public String toString() {
+        return "TableEmployee [empId=" + empId + ", empName=" + empName + ", salary=" + salary + "]";
+    }
+    
 }
